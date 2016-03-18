@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Vigenère</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <fieldset>
+        <legend>Caesar (shift) cipher:</legend>
+        <p><span id="note">Choose a number between 0 and 25 to shift your message. Use the English alphabet.</p>
+        <p>Shift key: <input id="skey" size="2" value="2"><span id="err"></p>
+        <p>Message to encrypt: <input id="text" size="80"></p>
+        <button id="encr" type="submit">Encrypt</button>
+        <button id="decr" type="submit">Decrypt</button>
+        <p>Result: <span id="output"></p>
+    </fieldset>
+    
+    <fieldset>
+    <legend>Vigenère cipher:</legend>
+      <p><span id="note">Choose a key then type the message you want to encrypt/decrypt. </p>
+  <p>Key: <input id="keys" size="10"></p>
+      <p>Message to encrypt/decrypt: <input id="textvig" size="40"></p>
+      <p>Secret message: <span id="encod"></p>
+      <p>Cracked message: <span id="smgg"></p>
+    </fieldset>
+    
+    <fieldset>
+    <legend>Greatest Common Denominator:</legend>
+    <p><span id="note">Type in a number in both fields to find their greatest common denominator.</p>
+    <p>A: <input id="akey" size="2" placeholder="1"> B: <input id="bkey" size="2" placeholder="1"></p>
+<button id="find" class="btn btn-default" type="submit">Find</button>
+<p>Result: <span id="gcdres" style="color:yellow">		
+  </fieldset>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

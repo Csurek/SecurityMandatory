@@ -1,0 +1,8 @@
+body {background-color: #2C3E50; color: white }
+fieldset {border: 3px double white; width: 500px; margin: auto; background-color: #34495E; margin-bottom: 20px;}
+legend {margin-left: 30px; font-weight: bold; font-size: 24px; text-transform: uppercase; border: 1px double white; background-color: #34495E;}
+#smgg {text-transform: lowercase; color:lightgreen;}
+#encod {text-transform: lowercase; color:yellow;}
+note {color: grey;}
+#err {color: #FF6633; padding-left: 10px;}
+#output {color: yellow; font-size: 24px;}
