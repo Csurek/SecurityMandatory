@@ -66,7 +66,6 @@ var dec = trans(enc, kulcs, 'decipher');
 var smg = trans(dec, kulcs, 'decipher');
  
   $('#encod').html(enc);
-  $('#decod').html(dec);
   $('#smgg').html(smg);
 });
 
